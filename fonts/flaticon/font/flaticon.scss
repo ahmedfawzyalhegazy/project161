@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?2eff11a393b62c25727dcfe25bbcc36d") format("truetype"),
+url("./flaticon.woff?2eff11a393b62c25727dcfe25bbcc36d") format("woff"),
+url("./flaticon.woff2?2eff11a393b62c25727dcfe25bbcc36d") format("woff2"),
+url("./flaticon.eot?2eff11a393b62c25727dcfe25bbcc36d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2eff11a393b62c25727dcfe25bbcc36d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "fast-food": "\f101",
+    "hamburger": "\f102",
+    "cocktail": "\f103",
+    "salad": "\f104",
+    "french-fries": "\f105",
+    "soup": "\f106",
+    "fast-food-1": "\f107",
+    "pudding": "\f108",
+    "coffee-cup": "\f109",
+    "drink": "\f10a",
+    "drink-1": "\f10b",
+    "soda": "\f10c",
+    "home": "\f10d",
+    "facebook": "\f10e",
+    "instagram": "\f10f",
+    "snapchat": "\f110",
+    "appetizer": "\f111",
+    "sauces": "\f112",
+    "steak": "\f113",
+);
+
+.flaticon-fast-food:before {
+    content: map-get($flaticon-map, "fast-food");
+}
+.flaticon-hamburger:before {
+    content: map-get($flaticon-map, "hamburger");
+}
+.flaticon-cocktail:before {
+    content: map-get($flaticon-map, "cocktail");
+}
+.flaticon-salad:before {
+    content: map-get($flaticon-map, "salad");
+}
+.flaticon-french-fries:before {
+    content: map-get($flaticon-map, "french-fries");
+}
+.flaticon-soup:before {
+    content: map-get($flaticon-map, "soup");
+}
+.flaticon-fast-food-1:before {
+    content: map-get($flaticon-map, "fast-food-1");
+}
+.flaticon-pudding:before {
+    content: map-get($flaticon-map, "pudding");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-drink:before {
+    content: map-get($flaticon-map, "drink");
+}
+.flaticon-drink-1:before {
+    content: map-get($flaticon-map, "drink-1");
+}
+.flaticon-soda:before {
+    content: map-get($flaticon-map, "soda");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-snapchat:before {
+    content: map-get($flaticon-map, "snapchat");
+}
+.flaticon-appetizer:before {
+    content: map-get($flaticon-map, "appetizer");
+}
+.flaticon-sauces:before {
+    content: map-get($flaticon-map, "sauces");
+}
+.flaticon-steak:before {
+    content: map-get($flaticon-map, "steak");
+}
